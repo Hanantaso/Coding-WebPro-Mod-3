@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP_MOD_3_1303220117_Hananta Sofiardi</title>
+</head>
+<body>
+    <h1>Profil Pribadi</h1><br/>
+    <table>
+        <tr>
+            <th align="center">Foto Profil</th>
+            <th align="center">Video Perkenalan</th>
+        </tr> 
+        <tr>
+            <td><img src="FotoDiri.jpg" height="401"></td>
+            <td><video height="401" controls> 
+                <source src="VideoPerkenalan.mp4" type="video/mp4">
+            </video></td>
+        </tr>
+    </table>
+    <h2>Tentang saya</h2>
+
+    Halo, nama saya Hananta Sofiardi dari jurusan S1 Teknologi Informasi<br/>
+    Saya lahir dan besar Di Jakarta bersama orang tua saya, dan saya adalah mahasiswa
+    yang sedang berkembang dan belajar tentang pemrograman web.<br/><br/>
+
+    <h2>Hobi</h2>
+    <table border="0">
+        <tr>
+            <th colspan="2" align="left">Hobi</th>
+            <td align="right">Tingkat</td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">Musik</th>
+            <td align="right">Mahir</td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">Olahraga</th>
+            <td align="right">Menengah</td>
+        </tr>
+    </table><br/>
+
+    <h2>Hubungi Saya</h2>
+    Nama: <input type="text" required/>
+    <br/>Email: <input type="text" required/><br/>
+    Pesan:<br/>
+    <textarea name="Messege" rows="3" cols="25"></textarea>
+    <br/>
+    <input type="submit" value="kirim pesan" required /><br/>
+
+    <h3>Media Sosial:</h3>
+    <div>
+        <a href="https://www.instagram.com/han.sfrd" target="_blank">Instagram</a> 
+        |
+        <a href="https://github.com/Hanantaso/Coding-WebPro-Mod-3/new/main" target="_blank">Github</a>
+        |
+        <a href="https://www.tiktok.com/@timnasindonesia?_t=8q8Ea76Ca9q&_r=1" target="_blank">Tiktok</a>
+    </div>
+
+
+</body>
+</html>
